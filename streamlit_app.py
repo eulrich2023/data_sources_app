@@ -15,15 +15,7 @@ DATA_SOURCES = {
         "docs_url": None,
         "get_connector": None,
     },
-    "🔎  BigQuery": {
-        "module": data_sources.big_query,
-        "secret_key": "bigquery",
-        "docs_url": "https://docs.streamlit.io/knowledge-base/tutorials/databases/bigquery",
-        "get_connector": data_sources.big_query.get_connector,
-        "tutorial": data_sources.big_query.tutorial,
-        "tutorial_anchor": "#tutorial-connecting-to-bigquery",
-    },
-    "❄️ Snowflake": {
+        "❄️ Snowflake": {
         "module": data_sources.snowflake,
         "secret_key": "snowflake",
         "docs_url": "https://docs.streamlit.io/knowledge-base/tutorials/databases/snowflake",
