@@ -1,1 +1,0 @@
-select * from snowflake_db_snowflake_db_public.vehicles;
